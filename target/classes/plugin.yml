@@ -1,0 +1,42 @@
+name: MultiCubeChunkLoader
+main: io.github.multicubeuk.multicubechunkloader.MultiCubeChunkLoader
+version: 1.0
+author: Thomas Sweeck
+website: http://www.multicube.co
+description: Custom plugin for BCLForge by Sweeck
+# softdepend: [UUIDProvider]
+
+commands:
+   multicubechunkloader:
+      aliases: [mcl]
+      description: Open GUI or list commands
+      usage: /<command> [?]
+   multicubechunkloaderadmin:
+      aliases: [mcla]
+      description: Administrative commands
+      usage: /<command> ?
+permissions:
+   multicubechunkloader.admin.delete:
+      default: op
+   multicubechunkloader.admin.list:
+      default: op
+   multicubechunkloader.admin.add:
+      default: op
+   multicubechunkloader.admin.balance:
+      default: op
+   multicubechunkloader.admin.*:
+      default: op
+      children:
+         multicubechunkloader.admin.add: true
+         multicubechunkloader.admin.list: true
+         multicubechunkloader.admin.remove: true
+         multicubechunkloader.admin.balance: true
+   multicubechunkloader.place:
+      default: true
+   multicubechunkloader.list:
+      default: true
+   multicubechunkloader.delete:
+      default: true
+   multicubechunkloader.balance:
+      default: true
+

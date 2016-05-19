@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MulticubeChunkLoader">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/MulticubeChunkLoader/MulticubeChunkLoader.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
