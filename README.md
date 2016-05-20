@@ -3,4 +3,4 @@ Taken from Another Chunk Loader by cnordbakk https://github.com/cnordbakk/Anothe
 
 MultiCubeUK's new custom Chunk Loading plugin Another Better Chunk Loader! 
 Downloads are avalible via GitHub releaces.
-Documentation to come, we want to get the plugin to a better point first
+Documentation to come, we want to get the plugin to at a better point first.
